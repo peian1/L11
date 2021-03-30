@@ -1,0 +1,101 @@
+body {background-color: white;}
+
+.Transitions1 {
+	
+    padding: 10px 20px;
+    background: Orange;
+    border:10px double Thistle;
+    -webkit-transition: background 0.6s ease 0.10s;
+    -moz-transition: background 0.6s ease 0.10s;
+    -o-transition: background 0.6s ease 0.10s;
+    /*firefox and opera */
+}
+.Transitions1:hover,
+.Transitions1:focus {	
+background: SkyBlue;
+border:10px double black;
+}
+
+.Transitions2 {
+    border-radius: 80%;
+    background-color: red;
+    border: none;
+    color: yellow;
+    padding: 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px 2px;
+}
+.Transitions2:hover {
+  color: Plum;
+  border-radius: 60%;
+    background-color: blue;
+    border: white dotted 6px;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 8px 4px;
+    transform: rotate(180deg);
+    transition-timing-function: linear;
+    transition: width 4s, height 4s, transform 4s;
+}
+
+.Transitions2:focus {
+  color: red;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font:bold 20px; 
+}
+
+.Transitions3 {
+    background-color: white;
+    border: dotted Orchid 12px;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 8px 4px;
+    cursor: pointer;
+    border-radius: 16px;
+    animation-name: ani;
+    animation-duration: 10s;
+}
+p {
+  display: none;
+  background-color: PaleGreen;
+  padding: 20px;
+  height:20px;
+  width:30px;
+}
+@keyframes ani {
+  from {background-color: white;}
+  to {background-color: red;}
+}
+
+div:hover p {
+  display: block;
+}
+
+#button {
+  width: 30px;
+  height: 100px;
+  background-color: red;
+  transition: width 4s, height 8s;
+}
+
+nav:hover {
+  width: 60px;
+  height: 200px;
+  background-color: red;
+}
+div {
+    width:100px;
+    height:150px;
+    font-family:Impact, Charcoal, sans-serif;
+    font-size:20px;
+    color:yellow;
+}
