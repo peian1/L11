@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Buttons-Page2</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+        body {background-color: white;}
+            a {
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            transition: width 0s;
+            font-size:30px;
+            color:blue;
+            font-family:"Times New Roman", Times, serif;
+}
+
+            a:hover {
+            width: 700px;
+            background-color: black;
+            font-size:50px;
+            color:white;
+}
+img {
+  opacity: 0.5;
+}
+            div:hover img , 
+            div:focus  img {
+
+	-webkit-transform: scale(1.3)  rotate(-10deg);
+	-moz-transform: scale(1.3)  rotate(-10deg);
+	-o-transform: scale(1.3)  rotate(-10deg);
+	transform: scale(1.3) rotate(-10deg);
+   
+	-webkit-filter: drop-shadow(7px 7px 5px rgba(0,0,0,0.5)); 
+	filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.5));   
+	opacity: 1;
+
+}
+        </style>
+    </head>
+    <body>
+        <h1>------buttons------</h1>
+        <nav>
+            <a href="#">Home</a><br><br>
+            <a href="#">Question</a><br><br>
+            <a href="#">Email</a><br><br>
+            <a href="#">More</a><br><br>
+            <a href="#">Tips</a><br>
+        </nav>
+        <br><hr>
+        <h1>------More buttons------</h1>
+        <div>
+            <img src="file:///C:/Users/peian/Downloads/youtube.svg" width="90" height="90"><br><br><br></div>
+            <div>
+            <img src="file:///C:/Users/peian/Downloads/instagram.svg" width="90" height="90"><br><br><br></div>
+            <div>
+            <img src="file:///C:/Users/peian/Downloads/skype.svg" width="90" height="90"><br><br><br></div>
+            <div>
+            <img src="file:///C:/Users/peian/Downloads/spotify.svg" width="90" height="90"><br><br><br><br></div>
+            <div>
+            <img src="file:///C:/Users/peian/Downloads/snapchat.svg" width="90" height="90"><br><br><br></div>
+            <div>
+            <img src="file:///C:/Users/peian/Downloads/twitter.svg" width="90" height="90"><br><br><br>
+        </div>
+    </body>
+</html>
